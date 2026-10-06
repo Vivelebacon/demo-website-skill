@@ -1,0 +1,19 @@
+# Secrets. Never commit a real one.
+.env
+.env.local
+
+# Python and Node
+__pycache__/
+*.pyc
+node_modules/
+package-lock.json
+
+# Build output and captures
+lab/
+_src/
+demos/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
