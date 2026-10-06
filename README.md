@@ -30,6 +30,13 @@ Copy the folder into your agent's skill directory and keep `scripts/` next to
 | Codex | `<project>/.agents/skills/demo-website/` |
 | Anything else | leave it in the workspace and tell the agent to read `SKILL.md` and follow it |
 
+With git, for Claude Code (this skill plus the scroll-craft skill it needs):
+
+```bash
+git clone https://github.com/Vivelebacon/demo-website-skill ~/.claude/skills/demo-website
+git clone https://github.com/Vivelebacon/scroll-craft-skill ~/.claude/skills/scroll-craft
+```
+
 Then say `demo website https://prospect-site.example`.
 
 ## Requirements
